@@ -1,0 +1,28 @@
+{
+  "name": "expressjs-practise",
+  "version": "1.0.0",
+  "description": "Learning Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitOfKumarSathish/max-express.git"
+  },
+  "author": "Sathish Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/gitOfKumarSathish/max-express/issues"
+  },
+  "homepage": "https://github.com/gitOfKumarSathish/max-express#readme"
+}
