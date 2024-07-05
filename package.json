@@ -1,28 +1,23 @@
 {
-  "name": "expressjs-practise",
+  "name": "nodejs-complete-guide",
   "version": "1.0.0",
-  "description": "Learning Express",
+  "description": "Complete Node.js Guide",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gitOfKumarSathish/max-express.git"
-  },
-  "author": "Sathish Kumar",
+  "author": "Maximilian Schwarzmüller",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "nodemon": "^1.18.3"
   },
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.19.2",
-    "mongodb": "^6.8.0"
-  },
-  "bugs": {
-    "url": "https://github.com/gitOfKumarSathish/max-express/issues"
-  },
-  "homepage": "https://github.com/gitOfKumarSathish/max-express#readme"
+    "body-parser": "^1.18.3",
+    "ejs": "^2.7.4",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "pug": "^2.0.3"
+  }
 }
