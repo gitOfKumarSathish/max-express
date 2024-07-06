@@ -1,0 +1,31 @@
+openapi: 3.0.0
+info:
+  title: Express API with Swagger
+  version: 0.1.0
+  description: >-
+    This is a simple CRUD API application made with Express and documented with
+    Swagger
+servers:
+  - url: http://localhost:3000
+paths:
+  /admin:
+    get:
+      summary: Returns the list of all the admins
+      responses:
+        '200':
+          description: The list of the admins
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                      description: The admin's name.
+                    email:
+                      type: string
+                      description: The admin's email.
+components: {}
+tags: []
